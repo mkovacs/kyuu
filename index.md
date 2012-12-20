@@ -31,7 +31,7 @@ ghci Kyuu.hs
 
 The general form of a rational number in repeating decimal notation looks like
 this:
-[integer] . [medial] # [repetend]
+\[integer\] . \[medial\] # \[repetend\]
 
 The integer and medial parts encode the prefix, while the repetend encodes the
 periodic suffix of the decimal expansion of the rational number.
