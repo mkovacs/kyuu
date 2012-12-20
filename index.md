@@ -45,10 +45,10 @@ from the denominator.
 ## Examples
 
 {% highlight haskell %}
-readRD "33.#3"   =  100 % 3
-readRD "0.#9"    =  1 % 1
-readRD "12.3#45" = 679 % 55
+readRD "33.#3"    =  100 % 3
+readRD "0.#9"     =  1 % 1
+readRD "12.3#45"  =  679 % 55
 
-showRD (20 % 3)  = "6.#6"
-showRD (81 % 28) = "2.89#285714"
+showRD (20 % 3)   =  "6.#6"
+showRD (81 % 28)  =  "2.89#285714"
 {% endhighlight %}
