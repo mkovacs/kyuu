@@ -31,8 +31,8 @@ ghci Kyuu.hs
 
 The general form of a rational number in repeating decimal notation looks like
 this:
-{% highlight bash %}
-\[integer\] . \[medial\] # \[repetend\]
+{% highlight c %}
+[integer] . [medial] # [repetend]
 {% endhighlight %}
 
 The integer and medial parts encode the prefix, while the repetend encodes the
