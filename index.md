@@ -31,7 +31,9 @@ ghci Kyuu.hs
 
 The general form of a rational number in repeating decimal notation looks like
 this:
+{% highlight bash %}
 \[integer\] . \[medial\] # \[repetend\]
+{% endhighlight %}
 
 The integer and medial parts encode the prefix, while the repetend encodes the
 periodic suffix of the decimal expansion of the rational number.
@@ -45,8 +47,8 @@ from the denominator.
 ## Examples
 
 {% highlight haskell %}
-readRD "33.#3"    =  100 % 3
 readRD "0.#9"     =  1 % 1
+readRD "33.#3"    =  100 % 3
 readRD "12.3#45"  =  679 % 55
 
 showRD (20 % 3)   =  "6.#6"
