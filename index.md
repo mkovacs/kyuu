@@ -31,7 +31,7 @@ ghci Kyuu.hs
 
 The general form of a rational number in repeating decimal notation looks like
 this:
-{% highlight %}
+{% highlight haskell %}
 [integer] . [medial] # [repetend]
 {% endhighlight %}
 
