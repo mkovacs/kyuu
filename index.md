@@ -29,8 +29,8 @@ ghci Kyuu.hs
 
 ## Notation
 
-The general form of a rational number in repeating decimal notation looks like
-this:
+The general form of a rational number in repeating decimal notation consists of
+three parts separated by a dot and a hash mark:
 {% highlight haskell %}
 [integer] . [medial] # [repetend]
 {% endhighlight %}
