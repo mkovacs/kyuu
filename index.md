@@ -24,7 +24,7 @@ import Kyuu
 To use the functions in [GHCi](http://www.haskell.org/haskellwiki/GHC/GHCi),
 start it like this:
 {% highlight bash %}
-ghci Kyuu.hs
+ghci kyuu.hs
 {% endhighlight %}
 
 ## Notation
@@ -53,4 +53,17 @@ readRD "12.3#45"  =  679 % 55
 
 showRD (20 % 3)   =  "6.#6"
 showRD (81 % 28)  =  "2.89#285714"
+
+[1 of 1] Compiling Kyuu             ( kyuu.hs, interpreted )
+Ok, modules loaded: Kyuu.
+*Kyuu> readRD "0.#9"
+1 % 1
+*Kyuu> readRD "33.#3"
+100 % 3
+*Kyuu> readRD "12.3#45"
+679 % 55
+*Kyuu> showRD (20 % 3)
+"6.#6"
+*Kyuu> showRD (81 % 28)
+"2.89#285714"
 {% endhighlight %}
