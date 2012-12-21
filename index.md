@@ -41,8 +41,8 @@ periodic suffix of the decimal expansion of the rational number.
 All three parts are (possibly empty) sequences of decimal digits. The repetend
 and the integer parts, when empty, contain an implicit 0.
 
-The percent sign % is the constructor of rational numbers (separating the
-numerator from the denominator) in Haskell.
+In Haskell, the percent sign % is the infix operator that constructs a rational
+number from a numerator and a denominator.
 
 ## Examples
 
