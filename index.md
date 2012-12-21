@@ -42,7 +42,7 @@ All three parts are (possibly empty) sequences of decimal digits. The repetend
 and the integer parts, when empty, contain an implicit 0.
 
 In Haskell, the percent sign % is the infix operator that constructs a rational
-number from a numerator and a denominator.
+number from its numerator and denominator.
 
 ## Examples
 
