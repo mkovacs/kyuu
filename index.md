@@ -41,8 +41,8 @@ periodic suffix of the decimal expansion of the rational number.
 All three parts are (possibly empty) sequences of decimal digits. The repetend
 and the integer parts, when empty, contain an implicit 0.
 
-In Haskell, % is the constructor of rational numbers, separating the numerator
-from the denominator.
+The percent sign % is the constructor of rational numbers (separating the
+numerator from the denominator) in Haskell.
 
 ## Examples
 
